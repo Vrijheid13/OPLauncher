@@ -1,0 +1,100 @@
+# OPLauncher-Setup.
+#
+# name and label are required for each item
+# color and icon are optional
+#
+---
+  - 
+    name: "navigation"
+    label: "NAVIGATION"
+    fontsize: "10pt"
+    color: "#13293D" #darkblue
+    icon: "helm"
+    items: 
+      - 
+        name : "opencpn"
+        label: "OpenCpn"
+        #color: "#3E5C76"
+        icon : "opencpn"
+      - 
+        name : "bandg"
+        label: "SailSteer"
+        #color: "#748CAB"
+        icon : "b&g"
+      - 
+        name : "sailgauge"
+        label: "SailGauge"
+        #color: "#748CAB"
+        icon : "b&g"
+      - 
+        name : "kip"
+        label: "Kip"
+        #color: "#748CAB"
+        icon : "b&g"
+  - 
+    name: "meteo"
+    label: "METEO & ROUTAGE"
+    color: "#587D71" # alguae green
+    icon: "wind"
+    items:
+          -
+            name : "xygrib"
+            label: "XyGrib"
+            icon : "xygrib"
+          -
+            name : "qtvlm"
+            label: "QtVlm"
+            icon : "qtvlm"
+  - 
+    name: "system"
+    label: "SYSTEM"
+    color: "#004E66" # petrol blue
+    icon: "parameters"
+    items:
+      -
+        name : "openplotter"
+        label: "OPENPLOTTER"
+        icon : "openplotter01"
+        items:
+          -
+            name : "serial"
+            label: "Serial"
+            icon : "serial"
+          -
+            name : "network"
+            label: "Network"
+            icon : "network"
+          -
+            name : "I2C"
+            label: "I2C Sensors"
+            icon : "i2c"
+          -
+            name : "pypilot"
+            label: "PyPilot"
+            icon : "pypilot"
+          -
+            name : "canbus"
+            label: "CanBus"
+            icon : "canbus"
+          -
+            name : "kplex"
+            label: "Kplex"
+            icon : "kplex"
+          -
+            name : "checksystem"
+            label: "Check System"
+            icon : "check"
+      -
+        name : "signalk"
+        label: "SignalK Server"
+        icon : "signalk01"
+      -
+        name : "sk_diagnostic"
+        label: "SK Diagnostic"
+        icon : "diagnostic"
+      - 
+        name : "desktop"
+        label: "Desktop"
+        #color: "#3E5C76"
+        icon : "desktop"
+  
