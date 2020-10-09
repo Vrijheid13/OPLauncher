@@ -1,4 +1,4 @@
-# oplauncher
+# OPLauncher
 
 OPLauncher is a modified & adapted version of PiMenu by splitbrain: https://github.com/splitbrain/pimenu
 To be used with Openplotter by Sailoog: https://openmarine.net/openplotter
